@@ -1,0 +1,792 @@
+@media (max-width: 480px) {
+  .abc {
+    padding: 0px 30px;
+  }
+
+  .naviBtn-A {
+    margin: 2px;
+  }
+
+  .naviBtn-B {
+    margin: px;
+  }
+}
+#demo {
+  margin: 0px;
+}
+.header {
+  left: 0;
+  background: #066fb0;
+  min-height: 0px;
+  position: inherit;
+  right: 0;
+  top: 0;
+}
+
+.topBar {
+  background: #1579b7;
+  padding: 8px 0;
+}
+
+.toggle-btn {
+  margin-bottom: 20px;
+}
+
+.icon {
+  height: 25px;
+}
+
+.nav-header {
+  padding-bottom: 11px;
+}
+
+.header-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logout {
+  color: white;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+
+.logout p {
+  margin: 0px;
+}
+
+.logo {
+  color: white;
+}
+
+.main-nav {
+  margin-bottom: -30px;
+}
+
+.navitem a {
+  color: white;
+  font-size: 15px;
+  margin: 0px 10px;
+}
+
+.navitem a:hover {
+  background-color: white;
+  /* border-radius: 5px; */
+  border-top-left-radius: 3px;
+  border-top-right-radius: 3px;
+  /* width: 90px; */
+}
+
+.nav-dropdown a {
+  color: black;
+}
+
+.nav-dropdown a:hover {
+  color: white;
+  background-color: #93d3db !important;
+  width: 180px !important;
+}
+
+.user {
+  height: 50px;
+  color: white;
+  margin-bottom: 10px;
+}
+
+.main-user {
+  font-size: 15px;
+  color: white;
+}
+
+.heading {
+  padding: 100px;
+  font-size: 20px;
+}
+
+/*................. homepage.............................. */
+
+.homepage {
+  padding: 50px;
+}
+
+.dash-box .dash-count {
+  font-size: 23px;
+  height: 56px;
+  line-height: 24px;
+}
+
+.dash-box .village {
+  background: #3f51b51f;
+  border-color: #3f51b5;
+  color: #3f51b5;
+  padding: 20px;
+}
+
+.home-village {
+  text-align: center !important;
+  padding-left: 1rem !important;
+  margin-top: 0.25rem !important;
+}
+
+.dash-box .dash-count {
+  font-size: 23px;
+  height: 56px;
+  line-height: 24px;
+}
+
+.dash-box .people {
+  background: #00bcd41f;
+  border-color: #00bcd4;
+  color: #00bcd4;
+  padding: 20px;
+}
+
+.home-people {
+  text-align: center !important;
+  padding-left: 1rem !important;
+  margin-top: 0.25rem !important;
+}
+
+.naviBtn-A {
+  align-items: center;
+  border-radius: 1px;
+  display: flex;
+  justify-content: center;
+  text-decoration: none;
+}
+
+.naviBtn-A.fit {
+  background: #3f51b51f;
+  color: #3f51b5;
+  border: none;
+  padding: 16px 60px !important;
+}
+
+.naviBtn-A.fit:hover {
+  background-color: #3f51b5;
+  color: white;
+}
+
+.naviBtn-B {
+  align-items: center;
+  border-radius: 1px;
+  display: flex;
+  justify-content: center;
+  text-decoration: none;
+}
+
+.naviBtn-B.git {
+  background: #00bcd41f;
+  color: #00bcd4;
+  border: none;
+  padding: 16px 60px !important;
+}
+
+.naviBtn-B.git:hover {
+  background-color: #00bcd4;
+  color: white;
+}
+
+.village-icon {
+  font-size: 24px;
+  height: 24px;
+  border: dotted 1.5px;
+  border-radius: 5px;
+  margin-right: 10px;
+}
+
+.v-btn-icon {
+  font-size: 15px;
+  height: 15px;
+  margin-right: 5px;
+}
+
+/* .........................add villages......................... */
+
+.search-here {
+  margin-top: -35px;
+}
+
+.add-v-btn {
+  padding: 8px 15px;
+  text-transform: uppercase;
+  background-color: #0866a0;
+  border: none;
+  color: white;
+  border-radius: 10px;
+}
+
+.add-v-btn:hover {
+  background-color: rgb(210, 210, 2);
+  color: black;
+}
+
+.add_more_btn {
+  background-color: #0866a0;
+  border: none;
+  border-radius: 5px;
+  padding: 5px 15px;
+  color: white;
+  display: flex;
+  align-items: center;
+}
+
+.relative {
+  position: relative;
+}
+
+.Editadd_more_btn {
+  background-color: #0866a0;
+  border: none;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+  padding: 11px;
+  color: white;
+  display: flex;
+  align-items: center;
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+.add_more_btn p{
+  margin: 0px;
+}
+
+.add_more_btn:hover {
+  background-color: rgb(210, 210, 2);
+  color: black;
+}
+
+.submit {
+  background: #076fb0 !important;
+  padding: 8px 25px;
+  text-transform: uppercase;
+  border: none;
+  border-color: transparent;
+  border-radius: 10px;
+}
+
+.submit:hover {
+  background-color: rgb(210, 210, 2) !important;
+  color: #0866a0;
+}
+
+.reset {
+  padding: 8px 25px;
+  text-transform: uppercase;
+  background: #076fb02e;
+  border-color: transparent;
+  border: none;
+  border-radius: 10px;
+  color: #076fb0;
+  margin-right: 1rem !important;
+}
+
+.reset:hover {
+  background-color: #0866a0 !important;
+  color: white;
+}
+
+/*.................... add people css............................ */
+.form-label {
+  font-size: 15px;
+  font-weight: 700px;
+  margin-bottom: 5px;
+}
+
+.form-control {
+  background-clip: padding-box;
+  background-color: #fff;
+  border: 1px solid #ced4da;
+}
+
+.form-control,
+select {
+  border-radius: 0.15rem;
+  color: #6e6b7b;
+  display: block;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.45;
+  transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+
+.c-addvillage {
+  margin-top: 60px;
+}
+
+/*...................... viilagefile page css ...............................*/
+
+.village-page {
+  margin-top: 60px;
+}
+
+.add-village-btn {
+  padding: 8px 15px;
+  text-transform: uppercase;
+  border: none;
+  /* background-color: rgb(223, 223, 10);
+  box-shadow: 0 8px 25px -8px var(--bs-warning); */
+  background-color: rgb(223, 223, 10);
+    box-shadow: 0 8px 5px -9px #625e4f;
+  color: white;
+  border-radius: 10px;
+  color: black;
+}
+
+.add-village-btn:hover {
+  background-color: #0866a0 !important;
+  color: white;
+}
+
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+/* ..............................village page page media.................................  */
+@media only screen and (max-width: 480px) {
+  .table-data {
+    font-size: 10px;
+    margin: 16px -17px;
+  }
+
+  .add-village-btn {
+    font-size: 10px;
+  }
+
+  .form-control.search {
+    width: 52%;
+    padding: 5px 2px;
+    position: relative;
+    float: right;
+  }
+
+  .table-icon {
+    height: 10px;
+    width: 10px;
+  }
+}
+
+td,
+th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+
+.v-tr:nth-child(even) {
+  background-color: #dddddd;
+  padding: 10px 0px;
+}
+
+.v-tr:hover {
+  background-color: rgb(211, 205, 205);
+}
+
+.download-btn {
+  background: #1579b71f;
+  color: #1579b7;
+  border: none;
+  padding: 5px 10px;
+  margin: 5px;
+}
+
+.view-btn {
+  background: #3949ab80;
+  color: #3949ab;
+  border: none;
+  padding: 5px 10px;
+  margin: 5px;
+}
+
+.edit-btn {
+  background: #4caf501f;
+  color: #4caf50;
+  border: none;
+  padding: 5px 10px;
+  margin: 5px;
+}
+
+.table-icon {
+  height: 15px;
+}
+
+.main-pagination {
+  padding-top: 20px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.page-no {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.drop-show {
+  padding-left: 20px;
+}
+
+.show-page {
+  padding: 2px;
+  font-size: 10px;
+  margin-top: -9px;
+}
+
+/*..................................... downloadfile css.............................. */
+.main-download {
+  padding-top: 60px;
+}
+
+.main-table-body {
+  padding: 20px 0px;
+}
+
+.down-btn {
+  padding: 6px 20px;
+  text-transform: uppercase;
+  transition: all 0.3s ease-in-out;
+  border: none;
+  color: white;
+  background-color: #0866a0 !important;
+
+  border-radius: 10px;
+}
+
+.down-btn:hover {
+  background-color: rgb(223, 223, 10) !important;
+  color: black;
+}
+
+.table-heading {
+  font-size: 20px;
+  font-weight: 700px;
+}
+
+/*................................. peoplemenu css ...................................*/
+@media only screen and (max-width: 480px) {
+  .people-search {
+    margin: 0px -38px;
+  }
+
+  .peoplemenu-btn {
+    margin: 0px 40px;
+  }
+
+  .add-people-btn {
+    font-size: 10px;
+    margin-left: 133px;
+    padding-bottom: -1px;
+    float: right;
+    position: relative;
+    top: -33px;
+  }
+}
+
+/* css  */
+
+.add-people-btn {
+  padding: 8px 15px;
+  text-transform: uppercase;
+  border: none;
+  /* background-color: rgb(223, 223, 10);
+  box-shadow: 0 8px 25px -8px var(--bs-warning); */
+  background-color: rgb(223, 223, 10);
+  box-shadow: 0 8px 5px -9px #625e4f;
+  color: white;
+  border-radius: 10px;
+  color: black;
+  margin: 0px 10px;
+}
+
+.main-peoplemenu {
+  padding-top: 60px;
+}
+
+.main-card-data {
+  padding-left: 30px;
+  padding-top: 20px;
+}
+
+.select-btn {
+  padding: 30px;
+}
+
+.main-select-btn {
+  width: 100%;
+  padding: 15px;
+  background-color: #8ed5df;
+  color: #076fb0;
+  border: none;
+  border-radius: 5px;
+}
+
+/*............................ main morefile css.......................... */
+.main-morefile {
+  padding-top: 60px;
+  padding-left: 20px;
+}
+
+.password-input {
+  padding: 10px 0px;
+}
+
+.input-group {
+  padding: 10px 0px;
+}
+
+.p-icon {
+  height: 20px;
+}
+
+/*................................ change language file css ..........................*/
+
+.form-control.change-language {
+  border-radius: 0.15rem;
+  color: #6e6b7b;
+  display: block;
+  font-size: 1rem;
+  font-weight: 400;
+  transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+  width: 25%;
+}
+
+.lang-heading {
+  padding: 10px 0px;
+}
+
+.lang-submit-btn {
+  padding-left: 20px;
+}
+
+.lang-submit {
+  background: #076fb0 !important;
+  padding: 8px 25px;
+  text-transform: uppercase;
+  border: none;
+  color: white;
+  display: flex;
+  align-items: center;
+  border-color: transparent;
+  border-radius: 10px;
+}
+
+.lang-submit:hover {
+  background-color: rgb(210, 210, 2) !important;
+  color: #0866a0;
+}
+
+/*............................. execitive file css...................... */
+@media only screen and (max-width: 480px) {
+  .exective-search {
+    position: relative;
+    float: right;
+  }
+}
+
+.form-control.exective-search {
+  width: 50%;
+  position: relative;
+  top: -38px;
+  margin: 0px 22px;
+  float: right;
+  padding: 7px 13px;
+}
+
+.e-tr:nth-child(even) {
+  background-color: #dddddd;
+  width: 100%;
+}
+
+.add-exective-btn {
+  padding: 8px 15px;
+  text-transform: uppercase;
+  border: none;
+  background-color: #0866a0 !important;
+  color: white !important;
+  border-radius: 10px;
+  color: black;
+}
+
+.add-exective-btn:hover {
+  color: black;
+  background-color: rgb(223, 223, 10) !important;
+}
+
+.ex-edit-btn {
+  background: #4caf501f;
+  color: #4caf50;
+  border: none;
+}
+
+.active-btn {
+  background-color: green;
+  color: white;
+  font-size: 12px;
+  border: none;
+  border-radius: 10px;
+}
+
+.disable-btn {
+  background-color: red;
+  color: white;
+  font-size: 12px;
+  border: none;
+  border-radius: 10px;
+}
+
+.login-page {
+  text-align: center;
+}
+
+.login-p {
+  font-size: 20px;
+  opacity: 0.5;
+}
+
+/* .form-control.login-input {
+  border-radius: 0.15rem;
+  color: #6e6b7b;
+  font-size: 1rem;
+  text-align: center;
+  align-items: center;
+  font-weight: 400;
+  transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+  width: 25%;
+} */
+
+.user-label {
+  padding-right: 150px;
+}
+
+.user-input {
+  justify-content: center;
+  display: flex;
+  padding-top: 10px;
+}
+
+/* viewfile */
+.viewfile {
+  padding-top: 60px;
+}
+
+.main-view-table {
+  padding-top: 30px;
+}
+
+.excesive-edit {
+  padding-top: 60px;
+}
+
+.pass-icon {
+  height: 20px;
+}
+
+.changepass {
+  padding-top: 60px;
+}
+
+/* login form css */
+.signin-page {
+  width: 80%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  color: black;
+}
+
+.main-login-form {
+  background-color: white;
+  padding: 10px;
+  width: 40%;
+  margin-left: 290px;
+  box-shadow: 10px 10px 10px 10px rgb(243, 246, 247);
+
+  /* box-shadow: 10px 10px 20px whitesmoke; */
+}
+
+.login-form {
+  padding-left: 50px;
+  padding-top: 20px;
+}
+
+.login-btn {
+  background: #076fb0 !important;
+  padding: 8px 25px;
+  margin-top: 20px;
+  width: 80%;
+  text-transform: uppercase;
+  border: none;
+  color: white;
+  display: flex;
+  border-color: transparent;
+  border-radius: 10px;
+}
+
+.login-btn:hover {
+  background-color: rgb(210, 210, 2) !important;
+  color: #0866a0;
+}
+
+/* ....................Login..................... */
+.sectionLogin {
+ padding: 100px;
+}
+.main-login-section {
+  display: flex;
+  margin: 0px auto;
+  justify-content: center;
+  align-items: center;
+}
+.sub-login-section {
+  border: 1px solid rgb(224, 224, 224);
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px 1px rgb(224, 224, 224);
+}
+.survey-login {
+  background-color: #066fb0;
+  padding: 10px;
+  font-weight: bold;
+  text-align: center;
+  color: #fff;
+  font-size: 40px;
+  border-top-right-radius: 10px;
+  border-top-left-radius: 10px;
+}
+.inner-login{
+  padding: 20px;
+}
+.input-box {
+  width: 300px;
+}
+.btn-Section{
+  padding: 10px 0px;
+}
+.form-control.login-input-box{
+  width: 400px;
+}
+.btn.BtnLogin{
+  width: 100%;
+  background-color: #066fb0;
+  font-size: 20px;
+  font-weight: 600;
+}
+.btn.BtnLogin:hover{
+  background-color: #066fb0;
+}
+.forgot {
+  display: flex;
+  justify-content: end;
+  font-size: 13px;
+  color: rgb(134, 134, 134);
+  padding: 2px;
+  cursor: pointer;
+}
+.forgot:hover{
+  color: #066fb0;
+}
